@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		E6073C052255F9DC001ABD85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6073C042255F9DC001ABD85 /* Assets.xcassets */; };
 		E6073C082255F9DC001ABD85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6073C062255F9DC001ABD85 /* LaunchScreen.storyboard */; };
 		E6073C0B2255F9DC001ABD85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6073C0A2255F9DC001ABD85 /* main.m */; };
+		E679AC5422560057007AA2AE /* testGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = E679AC5322560057007AA2AE /* testGif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E6073C072255F9DC001ABD85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6073C092255F9DC001ABD85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6073C0A2255F9DC001ABD85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E679AC5322560057007AA2AE /* testGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = testGif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		E6073BFA2255F9DC001ABD85 /* SDUsage */ = {
 			isa = PBXGroup;
 			children = (
+				E679AC5322560057007AA2AE /* testGif.gif */,
 				E6073BFB2255F9DC001ABD85 /* AppDelegate.h */,
 				E6073BFC2255F9DC001ABD85 /* AppDelegate.m */,
 				E6073BFE2255F9DC001ABD85 /* ViewController.h */,
@@ -92,7 +95,6 @@
 				CB7980F3756E10BD4ED9594E /* Pods-SDUsage.debug.xcconfig */,
 				8D34AA37B7660DC673E84EAC /* Pods-SDUsage.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6073C082255F9DC001ABD85 /* LaunchScreen.storyboard in Resources */,
+				E679AC5422560057007AA2AE /* testGif.gif in Resources */,
 				E6073C052255F9DC001ABD85 /* Assets.xcassets in Resources */,
 				E6073C032255F9DC001ABD85 /* Main.storyboard in Resources */,
 			);
